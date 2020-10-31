@@ -1,0 +1,13 @@
+﻿; Registering the package
+[$RootKey$\InstalledProducts\Answer_Set_Programming_LangaugePackage]
+"Package"="{e28ed6d3-6629-4c41-9346-41df6f56a7ba}"
+[$RootKey$\BindingPaths\{e28ed6d3-6629-4c41-9346-41df6f56a7ba}]
+"$PackageFolder$"=""
+
+; Registering the TextMate grammar
+[$RootKey$\TextMate\Repositories]
+"Answer_Set_Programming_Langauge"="$PackageFolder$\Syntaxes"
+
+; Match file extensions with icons. See full icon list at https://glyphlist.azurewebsites.net/knownmonikers/
+[$RootKey$\ShellFileAssociations\.pkgdef]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationEditor"
